@@ -20,12 +20,19 @@
 - 部署平台：Cloudflare Pages
 
 ## 專案結構
+
 ├── index.html               # 主頁面（登入畫面 + 筆記管理介面）
+
 ├── favicon.ico              # 網站圖示
+
 ├── functions/
+
 │   └── api/
+
 │       └── [[path]].js      # 所有 API 路由集中在此（catch-all 路由）
+
 ├── wrangler.toml            # D1 綁定設定、本地開發用
+
 └── README.md
 
 
