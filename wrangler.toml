@@ -1,0 +1,7 @@
+name = "nodebook-pages"
+compatibility_date = "2026-01-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "your D1 database name"   # ← 改成你的 D1 名稱
+database_id = "your D1 database ID"   # ← 從 Cloudflare dashboard → D1 複製
